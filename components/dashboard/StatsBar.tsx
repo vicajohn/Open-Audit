@@ -52,19 +52,19 @@ export function StatsBar({ events }: StatsBarProps): React.JSX.Element {
         sublabel="in current view"
       />
       <StatCard
-        icon={<CheckCircle2 className="h-5 w-5 text-emerald-500" />}
+        icon={<CheckCircle2 className="h-5 w-5 text-emerald-500 dark:text-emerald-400" />}
         label="Translated"
         value={translated}
         sublabel={`${translationRate}% success rate`}
       />
       <StatCard
-        icon={<HelpCircle className="h-5 w-5 text-amber-500" />}
+        icon={<HelpCircle className="h-5 w-5 text-amber-500 dark:text-amber-400" />}
         label="Cryptic"
         value={cryptic}
         sublabel="need blueprints"
       />
       <StatCard
-        icon={<BookOpen className="h-5 w-5 text-violet-500" />}
+        icon={<BookOpen className="h-5 w-5 text-violet-500 dark:text-violet-400" />}
         label="Blueprints"
         value={blueprintCount}
         sublabel="registered contracts"
